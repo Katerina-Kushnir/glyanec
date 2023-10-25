@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #fefdf7;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    font-size: 90px;
+    line-height: 99px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 55px;
+}
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+h6 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+.container {
+    width: 100%;
+    max-width: 1770px;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    z-index: 10;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+}
+.header-menu {
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+}
+.header-menu-item a {
+    font-weight: 600;
+}
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-contact-social {
+    display: flex;
+    gap: 12px;
+}
+.header-contact-social img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+p.phone {
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 700;
+}
+.header-contact-right-phone {
+    display: flex;
+    gap: 8px;
+}
+.header-contact-right-phone .caret:hover {
+    cursor: pointer;
+}
+.top {
+    position: relative;
+}
+.top-bg {
+    position: absolute;
+    top: -104px;
+    left: 0;
+
+}
+.top .container {
+    padding: 100px 0 47px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+}
+.top-content h5:nth-child(3) {
+    margin: 20px 0 40px;
+}
+.top-content .button {
+    width: 310px;
+    height: 65px;
+    background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #333333;
+
+}
+.top-pagination {
+    margin-top: 211px;
+    margin-bottom: 7px;
+    display: flex;
+    gap: 17px;
+}
+.top-pagination span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    opacity: 0.2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.top-pagination span.active{
+    border: 1px solid #FFD00E;
+    background-color: #FFD00E;
+    opacity: 1;
+}
+.top-more {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 118px;
+    cursor: pointer;
+}
+.top-more p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.top-more img{
+    height: 28px;
+    width: 18px;
+}
+
+.test .container {
+    padding: 100px 0;
+}
+.test-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.test-content img {
+    max-width: 900px;
+    width: 100%;
+}
+.test-content-text {
+    max-height: 374px;
+    overflow-y: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #F9F9F9
+}
+.test-content-text::-webkit-scrollbar {
+    width: 5px; 
+}
+.test-content-text::-webkit-scrollbar-track {
+    background: #F9F9F9; 
+}
+.test-content-text::-webkit-scrollbar-thumb {
+    background: #FFD00E; 
+}
+.test-content-text p {
+    margin-bottom: 10px;
+}
+
+.best-job {
+    background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%), linear-gradient(0deg, #FFFEFC, #FFFEFC);
+}
+.best-job .container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-job-left-text {
+    margin: 50px 0 28px;
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.best-job-img {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.best-job-img img {
+    max-height: 65px;
+    height: 100%;
+}
+
+.our-contribution .container,
+.partners .container,
+.charity .container {
+    padding: 50px 0;
+}
+.our-contribution-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.our-contribution-item {
+    width: 570px;
+    height: 211px;
+    border: 2px solid #454D520D;
+    border-radius: 10px;
+    padding: 20px 30px 30px 30px;
+}
+.our-contribution-item:hover {
+    cursor: pointer;
+}
+.our-contribution-item img {
+    max-height: 46px;
+    height: 100%;
+    width: auto;
+}
+.our-contribution-item-title {
+    margin: 15px 0;
+}
+.our-contribution-item-text {
+    font-size: 16px;
+    line-height: 20px;
+}
+.bg-elips {
+    background-image: url('img/Ellipse.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.bg-all {
+    background-color: #fffae6;
+}
+.partners-items {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    margin-top: 50px;
+}
+.partner-logo {
+    width: 280px;
+    height: 160px;
+}
+.partner-logo:hover {
+    cursor: pointer;
+}
+.prev, .next {
+    width: 56px;
+    height: 53px;
+}
+.prev:hover, .next:hover {
+    cursor: pointer;
+}
+.prev {
+    position: absolute;
+    left: -15px;
+    top: 47px;
+}
+.next {
+    position: absolute;
+    right: -15px;
+    top: 47px;
+}
+.charity-content {
+    display: flex;
+}
+.charity-photo {
+    margin-top: -50px;
+}
+.charity-text {
+    margin-top: 76px;
+}
+.charity-text p:first-child {
+    margin-bottom: 10px;
+}
+.charity-items {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 570px);
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+.charity-item:hover {
+    cursor: pointer;
+    background-color: #FFD00E;
+}
+.charity-item {
+    box-shadow: 0px 0px 20px 0px #4B55591A;
+    border-radius: 10px;
+    padding: 26px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.about-us-content {
+    background-image: url('img/about-us-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 590px;
+}
